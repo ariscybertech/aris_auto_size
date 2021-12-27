@@ -1,0 +1,29 @@
+name: auto_size_text
+description: Flutter widget that automatically resizes text to fit perfectly within its bounds.
+version: 2.0.2+1
+author: Simon Leier <simonleier@gmail.com>
+homepage: https://github.com/leisim/auto_size_text
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+dependencies:
+  flutter_web: any
+  flutter_web_ui: any
+
+dev_dependencies:
+  pedantic: '>=1.4.0 <3.0.0'
+
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
+  flutter_web_test:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_test  
